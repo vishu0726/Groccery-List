@@ -15,6 +15,7 @@ function addList() {
     let price = document.querySelector("[data-ns-test=item-price]").value;
     // console.log(names);
     // console.log(price);
+    if (names !== "" && price !== "") {
     let tbody = document.createElement('tbody');
     table.appendChild(tbody);
     let tr = document.createElement('tr');
@@ -25,7 +26,6 @@ function addList() {
     tr.appendChild(td2);
     let td3 = document.createElement('td');
     tr.appendChild(td3);
-    if (names !== "") {
         // console.log("not empty");
         num++;
         td1.innerHTML = num;
