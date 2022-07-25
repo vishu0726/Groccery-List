@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+input{
+    margin: 5px 0px;
+    background-color: rgb(158, 234, 196);
+    border-radius: 15px;
+    text-decoration: none;
+}
+button{
+    margin: 5px 0px;
+    border-radius: 15px;
+    background-color: red;
+}
+table,tr,td,th{
+    border: 1px solid black;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 5px;
+}
+th{
+    background-color: lightcoral;
+}
+td{
+    background-color: rgb(145, 112, 223);
+}
+[data-ns-test="grandTotal"] {
+    background-color: rgb(237, 241, 105);
+}
+h1{
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
